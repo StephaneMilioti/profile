@@ -1,0 +1,111 @@
+
+body {
+  background-color: rgb(240,240,240);
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  color: rgb(120,120,120);
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  color: #DD5555;
+  font-size: 22px;
+  font-weight: 900;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(100,100,100);
+  font-size: 18px;
+  font-weight: 300;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(100,100,100);
+  font-size: 16px;
+  font-weight: 300;
+}
+
+table {
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 1.6em;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(180,180,180);
+}
+
+a:hover {
+  color: red;
+}
+.container {
+  width: 700px;
+  margin: 0 auto;
+}
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+.card {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+}
+#img-profile {
+    width: 100px;
+    height: 100px;
+    border: 3px solid #cccccc;
+}
+.img-circle {
+    border-radius: 50%;
+}
+.text-center {
+    text-align: center;
+}
+
+#movies img {
+    width: 100px;
+}
+
+#movies td {
+    padding: 10px;
+}
+.btn-red {
+    background-color: #DD5555;
+    color: white;
+    font-weight: 500;
+    padding: 10px;
+    border-radius: 4px;
+}
+.list-inline li {
+    display: inline-block;
+    padding: 20px;
+
+}
+
+.list-inline {
+  list-style: none;
+  margin: 0;
+  text-align: center;
+  font-size: 25px;
+  padding-left: 0px;
+}
+
+
+
