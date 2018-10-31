@@ -39,7 +39,7 @@ a {
 }
 
 a:hover {
-  color: red;
+  color: #DD5555;
 }
 .container {
   width: 700px;
@@ -93,6 +93,10 @@ a:hover {
     padding: 10px;
     border-radius: 4px;
 }
+
+.btn-red:hover {
+  color: rgb(100,100,100);
+}
 .list-inline li {
     display: inline-block;
     padding: 20px;
@@ -106,6 +110,18 @@ a:hover {
   font-size: 25px;
   padding-left: 0px;
 }
-
+#sidebar {
+  background-color: #384047;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  bottom: 0px;
+  width: 120px;
+  text-align: center;
+  font-size: 25px;
+}
+#page-content {
+  margin-left: 150px;
+}
 
 

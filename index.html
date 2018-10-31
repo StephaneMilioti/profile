@@ -8,11 +8,30 @@
     @import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans');
     </style>
     <link rel="stylesheet" type="text/css" href="style.css">
-
   </head>
-
-   <body>
-  <div class="container">
+    <div id="sidebar" class="list-inline">
+      <ul>
+        <li>
+          <a href="#summary">
+            <i class="fa fa-info-circle"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#favorite-movies">
+            <i class="fas fa-file-video"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#help">
+            <i class="fa fa-life-ring"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div id="page-content">
+  <body>
+  <div class="container-fluid">
+    <div id="summary"></div>
     <div class="card text-center">
       <img src="images/Photoprofile.jpg" alt="Stephane Milioti" id= "img-profile" class="img-circle">
         <h1>Stephane Milioti</h1>
@@ -45,6 +64,7 @@
       </div>
 
     <div class="card">
+      <div id="favorite-movies"></div>
       <h2>Films préférés</h2>
 
     <table id="movies">
@@ -80,6 +100,7 @@
     </table>
     </div>
     <div class="card text-center">
+      <div id="help"></div>
       <h2>About this page</h2>
     This page has been coded during the <a href="https://lewagon.com/program" target="_blank">FullStack program @LeWagon</a>. That was probably the best experience of my entire life.
 
@@ -102,7 +123,8 @@
     </ul>
     </div>
 </div>
-
+</div>
+</div>
 </body>
 
 </html>
